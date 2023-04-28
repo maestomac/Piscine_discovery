@@ -1,0 +1,69 @@
+* {
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;   
+    align-items: center; 
+                 
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+body ul{
+    list-style-type: none;
+    position: relative;
+    min-width: 100px;
+    width: 200px;
+    height: 50px;
+}
+/* avoir une liste propre */
+body a {
+    display: block;
+    text-decoration: none; /*pas de soulignement, grs ect...*/
+    color: black;
+    padding: 10px;
+}
+/* effet lorsque lon passe sa souris */
+body a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+.deroulant {
+    background-color: rgba(218, 218, 218, 0.363);
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border: 1px solid rgb(172, 172, 172);
+    width: 100%;
+}
+h1 {
+    font-variant: small-caps;
+    font-family: z;
+}
+/* Pour avoir le deroulement avec la souris + details menu cache */
+.sous {
+    display: none;
+    box-shadow: 0px 1px 2px 1px #CCC;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 350%;
+    margin-top: 3px;
+
+}
+/* Pour etre interactif */
+body > ul li:hover .sous{
+    display: block;
+}
+/* avoir un fond de couleur pdt l interaction */
+.sous a:hover {
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+li {
+    border-bottom: 1px solid rgb(177, 177, 177);
+}

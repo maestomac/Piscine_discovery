@@ -1,0 +1,30 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    min-height: 768px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 800px;
+    height: 130px;
+}
+
+
+body {
+    display: flex;
+    text-align: start;
+    align-items: start;
+}
+.pink {
+    background-color: rgb(255, 187, 198);
+    border-right: 1px solid grey
+
+}
+.blue {
+    background-color: rgb(191, 191, 253);
+}

@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    background-color: pink;
+}
+
+h1 {
+    color: white;
+}
+
+table {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.superDiv {
+    text-align: right;
+    font-style: italic;
+}

@@ -1,0 +1,22 @@
+body, html {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+table, td, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 100%;
+    width: 100%;
+}
+td {
+    width: 50%
+}
+.pink {
+    background-color: rgb(255, 187, 198);
+}
+.blue {
+    background-color: rgb(191, 191, 253);
+}
